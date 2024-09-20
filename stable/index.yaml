@@ -1,3 +1,104 @@
 apiVersion: v1
-entries: {}
-generated: "2024-09-20T16:10:04.593915+09:00"
+entries:
+  spaceone:
+  - apiVersion: v2
+    appVersion: 1.10.5
+    created: "2024-09-20T15:52:34.234175+09:00"
+    dependencies:
+    - condition: console.enabled
+      name: console
+      repository: https://wonju95.github.io/charts
+      version: '>=1.0.0'
+    - condition: console-api.enabled
+      name: console-api
+      repository: https://wonju95.github.io/charts
+      version: '>=1.0.0'
+    - condition: identity.enabled
+      name: identity
+      repository: https://wonju95.github.io/charts
+      version: '>=1.0.0'
+    - condition: secret.enabled
+      name: secret
+      repository: https://wonju95.github.io/charts
+      version: '>=1.0.0'
+    - condition: repository.enabled
+      name: repository
+      repository: https://wonju95.github.io/charts
+      version: '>=1.0.0'
+    - condition: plugin.enabled
+      name: plugin
+      repository: https://wonju95.github.io/charts
+      version: '>=1.0.0'
+    - condition: config.enabled
+      name: config
+      repository: https://wonju95.github.io/charts
+      version: '>=1.0.0'
+    - condition: inventory.enabled
+      name: inventory
+      repository: https://wonju95.github.io/charts
+      version: '>=1.0.0'
+    - condition: monitoring.enabled
+      name: monitoring
+      repository: https://wonju95.github.io/charts
+      version: '>=1.0.0'
+    - condition: statistics.enabled
+      name: statistics
+      repository: https://wonju95.github.io/charts
+      version: '>=1.0.0'
+    - condition: cost-analysis.enabled
+      name: cost-analysis
+      repository: https://wonju95.github.io/charts
+      version: '>=1.0.0'
+    - condition: notification.enabled
+      name: notification
+      repository: https://wonju95.github.io/charts
+      version: '>=1.0.0'
+    - condition: board.enabled
+      name: board
+      repository: https://wonju95.github.io/charts
+      version: '>=1.0.0'
+    - condition: file-manager.enabled
+      name: file-manager
+      repository: https://wonju95.github.io/charts
+      version: '>=1.0.0'
+    - condition: dashboard.enabled
+      name: dashboard
+      repository: https://wonju95.github.io/charts
+      version: '>=1.0.0'
+    - condition: console-api-v2.enabled
+      name: console-api-v2
+      repository: https://wonju95.github.io/charts
+      version: '>=1.0.0'
+    - condition: marketplace-assets.enabled
+      name: marketplace-assets
+      repository: https://spaceone-dev.github.io/charts
+      version: '>=1.0.0'
+    - condition: supervisor.enabled
+      name: supervisor
+      repository: https://wonju95.github.io/charts
+      version: '>=1.0.0'
+    - condition: provisioning.enabled
+      name: provisioning
+      repository: https://wonju95.github.io/charts
+      version: '>=1.0.0'
+    - condition: supervisor.enabled
+      name: spaceone-initializer
+      repository: https://wonju95.github.io/charts
+      version: '>=1.0.0'
+    - condition: vault.enabled
+      name: vault
+      repository: ""
+      version: '>=0.1.0'
+    - condition: consul.enabled
+      name: consul
+      repository: https://helm.releases.hashicorp.com
+      version: '>=0.1.0'
+    description: A Helm chart for SpaceONE
+    digest: 87d0997deabfdb5a6c6e7597da2e3e73bf73acc908a6f28ea7b2ae842b9356f3
+    home: https://www.spaceone.org
+    name: spaceone
+    type: application
+    urls:
+    - spaceone-1.10.5.tgz
+    version: 1.10.5
+generated: "2024-09-20T15:52:34.220847+09:00"
