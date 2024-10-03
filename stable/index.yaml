@@ -3,7 +3,7 @@ entries:
   spaceone:
   - apiVersion: v2
     appVersion: 1.10.5
-    created: "2024-10-03T16:29:31.405545+09:00"
+    created: "2024-10-03T18:06:45.154453+09:00"
     dependencies:
     - condition: console.enabled
       name: console
@@ -105,4 +105,4 @@ entries:
     urls:
     - spaceone-1.10.5.tgz
     version: 1.10.5
-generated: "2024-10-03T16:29:31.394585+09:00"
+generated: "2024-10-03T18:06:45.141791+09:00"
