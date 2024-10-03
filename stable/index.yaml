@@ -3,7 +3,7 @@ entries:
   spaceone:
   - apiVersion: v2
     appVersion: 1.10.5
-    created: "2024-09-20T15:52:34.234175+09:00"
+    created: "2024-10-03T16:29:31.405545+09:00"
     dependencies:
     - condition: console.enabled
       name: console
@@ -93,12 +93,16 @@ entries:
       name: consul
       repository: https://helm.releases.hashicorp.com
       version: '>=0.1.0'
+    - condition: price-list.enabled
+      name: price-list
+      repository: https://wonju95.github.io/charts
+      version: '>=0.0.1'
     description: A Helm chart for SpaceONE
-    digest: 87d0997deabfdb5a6c6e7597da2e3e73bf73acc908a6f28ea7b2ae842b9356f3
+    digest: 6d3dbe43361a136e4a68963f63fa9068481e78caa80c648edfd982352f027c5b
     home: https://www.spaceone.org
     name: spaceone
     type: application
     urls:
     - spaceone-1.10.5.tgz
     version: 1.10.5
-generated: "2024-09-20T15:52:34.220847+09:00"
+generated: "2024-10-03T16:29:31.394585+09:00"
