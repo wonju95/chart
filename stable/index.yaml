@@ -3,7 +3,7 @@ entries:
   spaceone:
   - apiVersion: v2
     appVersion: 1.10.5
-    created: "2024-10-03T18:06:45.154453+09:00"
+    created: "2024-10-03T19:44:20.358452+09:00"
     dependencies:
     - condition: console.enabled
       name: console
@@ -98,11 +98,11 @@ entries:
       repository: https://wonju95.github.io/charts
       version: '>=0.0.1'
     description: A Helm chart for SpaceONE
-    digest: 6d3dbe43361a136e4a68963f63fa9068481e78caa80c648edfd982352f027c5b
+    digest: 51e31918e0b98b7db17f6b970b277924cf1006e6c8637cc10a4e561e33dbe132
     home: https://www.spaceone.org
     name: spaceone
     type: application
     urls:
     - spaceone-1.10.5.tgz
     version: 1.10.5
-generated: "2024-10-03T18:06:45.141791+09:00"
+generated: "2024-10-03T19:44:20.34602+09:00"
